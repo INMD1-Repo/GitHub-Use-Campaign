@@ -146,12 +146,8 @@
         <div class="container py-4 py-xl-5">
           <div class="row mb-4">
             <div class="col-md-8 col-xl-8 text-center mx-auto py-deit">
-              <h2 class="what_main_title_white">Why use Github?
-              </h2>
-              <p class="w-lg-50">
-                Curae hendrerit donec commodo hendrerit egestas tempus, turpis
-                facilisis nostra nunc. Vestibulum dui eget ultrices.
-              </p>
+              <p class="what_main_title_white">Why Use Github?<p>
+              <h3 class="what_main_sub_title_white">우리가 깃허브를 이용하면 이런것들을 이용할수 있습니다.</h3>
             </div>
           </div>
           <div class="row row-cols-1 row-cols-md-2 row-cols-xl-3">
@@ -159,17 +155,35 @@
               <div class="card">
                 <img
                   class="card-img-top w-100 d-block fit-cover"
-                  src="https://cdn.bootstrapstudio.io/placeholders/1400x800.png"
+                  src="./assets/img/Github_action.png"
                 />
                 <div class="card-body p-4">
-                  <p class="text-primary mb-0">Article</p>
+                  <p class="text-primary mb-0">개발도구</p>
                   <h4 class="font-weight-bold card-title">
-                    Lorem libero donec
+                    Github actions
+                  </h4>
+                  <p class="card- text">
+                    깃허브 액션은 빌드, 테스트 및 배포 파이프라인을 자동화 할수 있는 CL/CD입니다.
+                    그래서 이걸 이용해서 파일을 배포가 가능하고 Gihub Page에 사이트를 배포 할수 있습니다.
+                  </p>
+                  <button type="button" class="btn btn-primary btn-lg">페이지 방문</button>
+                </div>
+              </div>
+            </div>
+            <div class="col mb-4">
+              <div class="card">
+                <img
+                  class="card-img-top w-100 d-block fit-cover"
+                  src="./assets/img/github_student.png"
+                />
+                <div class="card-body p-4">
+                  <p class="text-primary mb-0">혜택</p>
+                  <h4 class="font-weight-bold card-title">
+                    Github Student Pack
                   </h4>
                   <p class="card-text">
-                    Nullam id dolor id nibh ultricies vehicula ut id elit. Cras
-                    justo odio, dapibus ac facilisis in, egestas eget quam.
-                    Donec id elit non mi porta gravida at eget metus.
+                    깃허브 학생 팩은 학생이 재학동안 IDE, 도메인등 무료로 제공하는 패키지입니다. 
+                    이걸 사용하는 방법은 먼저 대학교 이메일을 통해서 인증하면 됨니다.
                   </p>
                 </div>
               </div>
@@ -178,31 +192,12 @@
               <div class="card">
                 <img
                   class="card-img-top w-100 d-block fit-cover"
-                  src="https://cdn.bootstrapstudio.io/placeholders/1400x800.png"
+                  src="./assets/img/github_Page.png"
                 />
                 <div class="card-body p-4">
-                  <p class="text-primary mb-0">Article</p>
+                  <p class="text-primary mb-0">호스팅</p>
                   <h4 class="font-weight-bold card-title">
-                    Lorem libero donec
-                  </h4>
-                  <p class="card-text">
-                    Nullam id dolor id nibh ultricies vehicula ut id elit. Cras
-                    justo odio, dapibus ac facilisis in, egestas eget quam.
-                    Donec id elit non mi porta gravida at eget metus.
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div class="col mb-4">
-              <div class="card">
-                <img
-                  class="card-img-top w-100 d-block fit-cover"
-                  src="https://cdn.bootstrapstudio.io/placeholders/1400x800.png"
-                />
-                <div class="card-body p-4">
-                  <p class="text-primary mb-0">Article</p>
-                  <h4 class="font-weight-bold card-title">
-                    Lorem libero donec
+                    GitHub Page
                   </h4>
                   <p class="card-text">
                     Nullam id dolor id nibh ultricies vehicula ut id elit. Cras
