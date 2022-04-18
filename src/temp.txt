@@ -1,0 +1,164 @@
+<template>
+  <div id="app">
+    <!-- Index -->
+    <article class="c_article" style="background-color: #383838">
+      <div class="py-5 text-center h-100 align-items-center d-flex">
+        <div class="container py-5">
+          <div class="row">
+            <div class="mx-auto col-lg-8 col-md-10">
+              <vue-typer
+                style="font-size: 300%; font-weight: bold"
+                :text="['What Github?', 'How Github?', 'Enjoy Github!']"
+                :repeat="Infinity"
+                :shuffle="false"
+                initial-action="typing"
+                :pre-type-delay="70"
+                :type-delay="70"
+                :pre-erase-delay="5000"
+                :erase-delay="250"
+                erase-style="select-all"
+                :erase-on-complete="false"
+                caret-animation="blink"
+              ></vue-typer>
+              <p class="lead mb-5 Main_subtitle" style="font">
+                우리가 사용하지 않지만 개발자들 사이에서는 많이 사용하는
+                깃허브.. <br />
+                깃허브는 어떤 것이고 무었인지 한번 알아볼까요?
+              </p>
+              <a class="btn btn-lg mx-1 btn-primary" href="#what">Let's Go!</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </article>
+    <!-- What is Github? -->
+    <article>
+      <div class="container-fluid">
+        <div class="row" style="height: 100vh">
+          <div
+            class="col-md-6 col-xl-3 align-items-center"
+            style="background: #444444"
+          >
+            <section class="py-4 py-xl-5"></section>
+          </div>
+          <div class="col-md-6 col-xl-9" style="border-width: 10px">
+            <div class="row" style="background: #e2703a"></div>
+            <div class="row">
+              <div class="col" style="background: #cc704b;"></div>
+            </div>
+            <div class="row">
+              <div class="col" style="background: #8fbdd3;"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </article>
+  </div>
+</template>
+
+<script>
+export default {
+  name: "App",
+  components: {},
+  data() {
+    return {
+      topcolor: "#00ff0000",
+      scrollPostion: 0,
+    };
+  },
+  created() {
+    window.addEventListener("scroll", this.handleScroll);
+  },
+  methods: {
+    handleScroll() {
+      if (window.pageYOffset < 5) {
+        this.topcolor = "#00ff0000";
+      } else if (window.pageYOffset > 5) {
+        this.topcolor = "white";
+      }
+    },
+  },
+};
+</script>
+
+
+        <div class="container py-4 py-xl-5">
+          <h1 class="display-4 text-center" style="font-weight: bold">
+            What Is Github?
+          </h1>
+          <div class="row">
+            <div class="col-md-6 ">
+              <div class="p-xl-3 m-xl-3">
+                <img
+                  class="rounded img-fluid w-100 fit-cover"
+                  src="./assets/img/WhatBg.png"
+                />
+              </div>
+            </div>
+            <div class="col-md-6 d-md-flex align-items-md-center mb-4">
+              <div style="max-width: 550px">
+                <h2 class="what_title">GitHub X Git</h2>
+                <p class="my-3 what_text">
+                  깃허브는 분산 버전 관리 툴인 깃(GIT)를 사용하는 프로젝트를
+                  지원 하는 웹호스팅 서비스입니다.
+                </p>
+                <a
+                  class="btn btn-primary"
+                  href="https://git-scm.com/book/ko/v2"
+                  role="button"
+                  >What is Git?</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-6 ">
+              <div class="p-xl-3 m-xl-3">
+                <img
+                  class="rounded img-fluid w-100 fit-cover"
+                  src="./assets/img/WhatBg.png"
+                />
+              </div>
+            </div>
+            <div class="col-md-6 d-md-flex align-items-md-center mb-4">
+              <div style="max-width: 550px">
+                <h2 class="what_title">GitHub X Git</h2>
+                <p class="my-3 what_text">
+                  깃허브는 분산 버전 관리 툴인 깃(GIT)를 사용하는 프로젝트를
+                  지원 하는 웹호스팅 서비스입니다.
+                </p>
+                <a
+                  class="btn btn-primary"
+                  href="https://git-scm.com/book/ko/v2"
+                  role="button"
+                  >What is Git?</a
+                >
+              </div>
+            </div>
+          </div>
+                    <div class="row">
+            <div class="col-md-6 ">
+              <div class="p-xl-3 m-xl-3">
+                <img
+                  class="rounded img-fluid w-100 fit-cover"
+                  src="./assets/img/WhatBg.png"
+                />
+              </div>
+            </div>
+            <div class="col-md-6 d-md-flex align-items-md-center mb-4">
+              <div style="max-width: 550px">
+                <h2 class="what_title">GitHub X Git</h2>
+                <p class="my-3 what_text">
+                  깃허브는 분산 버전 관리 툴인 깃(GIT)를 사용하는 프로젝트를
+                  지원 하는 웹호스팅 서비스입니다.
+                </p>
+                <a
+                  class="btn btn-primary"
+                  href="https://git-scm.com/book/ko/v2"
+                  role="button"
+                  >What is Git?</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
