@@ -7242,6 +7242,11 @@
     "ajv" "^6.12.4"
     "ajv-keywords" "^3.5.2"
 
+"scrollmonitor@^1.2.4":
+  "integrity" "sha512-pgviMf1xa3nfKvVxH/MhA3o96UVHHWyjUPKfKSfGmRjWpLJLM/IMRlNpqWtgsV9Av2WyI2JmyiSeVJVkt/AV3w=="
+  "resolved" "https://registry.npmjs.org/scrollmonitor/-/scrollmonitor-1.2.9.tgz"
+  "version" "1.2.9"
+
 "select-hose@^2.0.0":
   "integrity" "sha1-Yl2GWPhlr0Psliv8N2o3NZpJlMo="
   "resolved" "https://registry.npmjs.org/select-hose/-/select-hose-2.0.0.tgz"
@@ -8276,6 +8281,13 @@
   "integrity" "sha512-+NYs2QeMWy+GWFOEm9xnn6HCDp0l7QBD7ml8zLUmJ+93Q5NF0NocErnwkTkXVFNiX3/fpC6afS8Dhb/gz7R7eg=="
   "resolved" "https://registry.npmjs.org/uuid/-/uuid-8.3.2.tgz"
   "version" "8.3.2"
+
+"v-animate-css@^0.0.5":
+  "integrity" "sha512-FML26yVYX3hCTWTKioTNAIXjaWIFWa1mSczb92cLkMYI9QI6uRacKx7QnBNB17IOFLFEv8mc14aawe2In/ba1w=="
+  "resolved" "https://registry.npmjs.org/v-animate-css/-/v-animate-css-0.0.5.tgz"
+  "version" "0.0.5"
+  dependencies:
+    "scrollmonitor" "^1.2.4"
 
 "v8-compile-cache@^2.0.3":
   "integrity" "sha512-l8lCEmLcLYZh4nbunNZvQCJc5pv7+RCwa8q/LdUx8u7lsWvPDKmpodJAJNwkAhJC//dFY48KuIEmjtd4RViDrA=="

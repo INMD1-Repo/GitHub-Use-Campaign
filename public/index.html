@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <link rel="icon" href="<%= BASE_URL %>favicon.ico">
     <title><%= htmlWebpackPlugin.options.title %></title>
-    <link rel="stylesheet" href="./fullPage.js-2.9.7/dist/jquery.fullPage.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   </head>
   <body>
     <noscript>
@@ -14,85 +14,8 @@
     </noscript>
     <div id="app"></div>
     <!-- built files will be auto injected -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-    <script src="fullPage.js-2.9.7/vendors/jquery.easings.min.js"></script>
-    <script src="fullPage.js-2.9.7/vendors/scrolloverflow.min.js"></script>
-    <script type="text/javascript" src="fullPage.js-2.9.7/dist/jquery.fullPage.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
-      $(document).ready(function () {
-        $('#fullpage').fullpage({
-          //Navigation
-          menu: '#menu',
-          lockAnchors: false,
-          anchors: ['Main', 'what'],
-          navigation: false,
-          navigationPosition: 'right',
-          navigationTooltips: ['firstSlide', 'secondSlide'],
-          showActiveTooltip: false,
-          slidesNavigation: false,
-          slidesNavPosition: 'bottom',
-    
-          //Scrolling
-          css3: true,
-          scrollingSpeed: 700,
-          autoScrolling: true,
-          fitToSection: true,
-          fitToSectionDelay: 1000,
-          scrollBar: false,
-          easing: 'easeInOutCubic',
-          easingcss3: 'ease',
-          loopBottom: false,
-          loopTop: false,
-          loopHorizontal: true,
-          continuousVertical: false,
-          continuousHorizontal: false,
-          scrollHorizontally: false,
-          interlockedSlides: false,
-          dragAndMove: false,
-          offsetSections: false,
-          resetSliders: false,
-          fadingEffect: false,
-          normalScrollElements: '#element1, .element2',
-          scrollOverflow: false,
-          scrollOverflowReset: false,
-          scrollOverflowOptions: null,
-          touchSensitivity: 15,
-          normalScrollElementTouchThreshold: 5,
-          bigSectionsDestination: null,
-    
-          //Accessibility
-          keyboardScrolling: true,
-          animateAnchor: true,
-          recordHistory: true,
-    
-          //Design
-          controlArrows: true,
-          verticalCentered: true,
-          paddingTop: '3em',
-          paddingBottom: '10px',
-          fixedElements: '#header, .footer',
-          responsiveWidth: 0,
-          responsiveHeight: 0,
-          responsiveSlides: false,
-          parallax: false,
-          parallaxOptions: { type: 'reveal', percentage: 62, property: 'translate' },
-    
-          //Custom selectors
-          sectionSelector: '.section',
-          slideSelector: '.slide',
-    
-          lazyLoading: true,
-    
-          //events
-          onLeave: function (index, nextIndex, direction) { },
-          afterLoad: function (anchorLink, index) { },
-          afterRender: function () { },
-          afterResize: function () { },
-          afterResponsive: function (isResponsive) { },
-          afterSlideLoad: function (anchorLink, index, slideAnchor, slideIndex) { },
-          onSlideLeave: function (anchorLink, index, slideIndex, direction, nextSlideIndex) { }
-        });
-      });
-    </script>
+      AOS.init();
+    </script>  
     </html>
